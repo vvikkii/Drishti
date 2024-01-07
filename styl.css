@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border: 5px;
+    border-radius:40%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    padding: 0 23px;
+}
+.nav-list{
+width: 50%;
+/*color: white;*/
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.nav-list li{
+     list-style: none;
+     padding: 5px 8px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover{
+        text-decoration: none;
+        color: yellow;
+}
+        
+    .rightNav{
+/*background-color: blueviolet;*/
+width: 50%;
+text-align: right;
+}
+#search{
+    padding: 3px;
+    font-size: 17px;
+    border: 5px;
+    border-radius: 7px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('Assets/camera4.jpg');
+    background-size: cover;
+    background-blend-mode:darken;
+}
+.home{
+    height: 100vh;
+}
+.head{
+    text-align: center;  
+}
+.head>h1{
+    font-size: 70px;
+    padding: 0px;
+    color:rgb(12, 219, 234);
+    
+}
+.head>span{
+    font-size: 25px;
+    font-style: italic;
+    padding: 0.5px;
+    color: rgb(12, 219, 234);
+    
+}
+.box-main{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    font-family: serif;
+    max-width: 50%;
+    margin: auto;
+}
+
+.firsthalf>ul>li{
+    padding: 5px;
+    font-size:xx-large;
+    width: 70vw;
+}
+.secondhalf>img{
+height: 50vh;
+padding: 4px 0;
+border: 4px solid white;
+border-radius: 200px 200px;
+display: block;
+margin: auto;
+}
+.btn-sm{
+    border: 4px;
+    border-radius: 8px;
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+
+
+.firstpage{
+    background: rgba(0, 0, 0, 0.7) url('Assets/camera3.jpg');
+    background-size: cover;
+    background-blend-mode:darken;
+    height: 100vh;
+}
+.firstpage{
+    font-size: xx-large;
+    padding: 100px;
+    display: block;
+    margin: auto;
+}
+.sectionTag{
+    font-size: 70px;
+    padding: 5px;
+    color: yellow;
+}
+.sectionSubTag{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 100px;
+    text-align:left;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    
+}

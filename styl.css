@@ -179,7 +179,6 @@ margin: auto;
         padding-top: 80px;
     } 
     .Firstquarter{
-        width: 100vw;
         padding-top:100px;
         padding-left: 20px;
         justify-content: left;
@@ -199,7 +198,6 @@ margin: auto;
         justify-content: center;
     }
     .Secondquarter{
-        width: 100vw;
         padding-top: 170px;
         justify-content: center;
         align-items: center;

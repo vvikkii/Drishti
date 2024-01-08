@@ -208,4 +208,53 @@ margin: auto;
         border: 3px solid white;
         border-radius: 10px 10px;
         justify-content: center;
-    }     
+    }
+    .thirdpage{
+        background: rgba(0, 0, 0, 0.7) url('Assets/camera4.jpg');
+        background-size: cover;
+        background-blend-mode:darken;
+        height: 100vh;
+    }
+    .box-main4{
+        justify-content: center;
+        align-content: center;
+        color: white;
+        font-family: serif;
+        margin: auto;
+        display: flex;
+    }  
+    .SectionTag{
+        font-size: 70px;
+        padding-top: 80px;
+        padding-left: 70px;
+        color: yellow;
+        justify-content: center;
+        align-items: center;
+    }
+    .Firsthalf{
+        padding-top:180px;
+        padding-right: 300px; 
+        justify-content: left; 
+        align-items: left;
+    }
+    .Firsthalf>img{
+        height: 60vh;
+        padding: 0px 0px;
+        border: 3px solid white;
+        border-radius: 10px 10px;
+        justify-content: center;
+    }
+    .Secondhalf{
+       
+       padding-top: 180px;
+       padding-right:400px;
+        justify-content: center;
+        align-items: center;
+       }      
+    .Secondhalf>img{
+        height: 60vh;
+        padding: 0px 0px;
+        border: 3px solid white;
+        border-radius: 10px 10px;
+        justify-content: center;
+    }

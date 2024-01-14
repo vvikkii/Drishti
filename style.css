@@ -4,10 +4,11 @@
 }
 
 .logo {
-    width: 40%;
+    width: 30%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-left: -10px;
+    justify-content: left;
+    align-items: left;
 }
 
 .logo img {
@@ -29,7 +30,7 @@
 }
 
 .nav-list {
-    width: 50%;
+    width: 70%;
     /*color: white;*/
     display: flex;
     justify-content: center;
@@ -38,10 +39,12 @@
 
 .nav-list li {
     list-style: none;
-    padding: 5px 8px;
+    padding: 20px 8px;
 }
 
 .nav-list li a {
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: none;
     color: white;
 }
@@ -53,15 +56,16 @@
 
 .rightNav {
     /*background-color: blueviolet;*/
-    width: 50%;
+    width: 30%;
     text-align: right;
 }
 
 #search {
     padding: 3px;
     font-size: 17px;
-    border: 5px;
+    border: 2px solid grey;
     border-radius: 7px;
+    background: none;
 }
 
 .background {
@@ -70,8 +74,14 @@
     background-blend-mode: darken;
 }
 
+.Background {
+    background: rgba(0, 0, 0, 0.7) url('Assets/camera4.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
 .home {
-    height: 100vh;
+  
 }
 
 .head {
@@ -120,25 +130,45 @@
     margin: auto;
 }
 
-.btn-sm {
-    border: 4px;
+.btn {
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
     border-radius: 8px;
-    padding: 6px 10px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+.btn-sm {
+    border: 2px solid grey;
+    border-radius: 6px;
+    padding: 2px 5px;
+    font-size: 16px;
     vertical-align: middle;
 }
 
-
+.btn-dark {
+    width: 6vw;
+    color: rgb(255, 255, 255);
+    border: 2px solid grey;
+    border-radius: 6px;
+    background: none;
+}
 
 .firstpage {
     background: rgba(0, 0, 0, 0.7) url('Assets/camera4.jpg');
     background-size: cover;
     background-blend-mode: darken;
-    height: 100vh;
+ 
 }
 
 .firstpage {
     font-size: xx-large;
     display: block;
+    padding-left:10px ;
 
 }
 
@@ -157,7 +187,8 @@
 
 .sectionTag {
     font-size: 70px;
-    padding-top: 100px;
+    padding: 10px;
+    padding-left:;
     color: yellow;
 }
 
@@ -173,7 +204,7 @@
 }
 
 .secondHalf {
-    padding-top: 190px;
+    padding-top: 10px ;
     justify-content: right;
     align-items: right;
 }
@@ -192,7 +223,7 @@
     background: rgba(0, 0, 0, 0.7) url('Assets/camera4.jpg');
     background-size: cover;
     background-blend-mode: darken;
-    height: 100vh;
+  
 }
 
 .box-main3 {
@@ -202,11 +233,10 @@
     color: white;
     font-family: serif;
     margin: auto;
-    padding-top: 80px;
-}
+    }
 
 .Firstquarter {
-    padding-top: 100px;
+    padding-top: 20px;
     padding-left: 20px;
     justify-content: left;
     align-items: left;
@@ -226,12 +256,13 @@
     border-radius: 10px 10px;
     justify-content: center;
 }
-.box-main3>div>img:hover{
+
+.box-main3>div>img:hover {
     height: 40vh;
 }
 
 .Secondquarter {
-    padding-top: 170px;
+    padding-top: 60px;
     justify-content: center;
     align-items: center;
 }
@@ -249,7 +280,7 @@
     background: rgba(0, 0, 0, 0.7) url('Assets/camera4.jpg');
     background-size: cover;
     background-blend-mode: darken;
-    height: 100vh;
+
 }
 
 .box-main4 {
@@ -263,7 +294,6 @@
 .SectionTag {
     width: 10%;
     font-size: 70px;
-    /* padding-top: 100px; */
     padding-left: 70px;
     color: yellow;
     justify-content: center;
@@ -272,10 +302,12 @@
 
 .Firsthalf {
     width: 45%;
-    padding-top: 100px;
-    justify-content: left;
-    align-items: left;
+    padding-left: 200px;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
 }
+
 .Firsthalf>#front>img {
     height: 60vh;
     width: 25vw;
@@ -285,27 +317,30 @@
     z-index: 2;
     transition: 1s;
 }
-.Firsthalf>#back{
-    height:0vh;
-    width:0vw;
-    position:absolute;
-    color:white;
+
+.Firsthalf>#back {
+    height: 0vh;
+    width: 0vw;
+    position: absolute;
+    color: white;
     font-size: 0vh;
     border-radius: 10px;
-    border:3px solid white;
+    border: 3px solid white;
     background-color: lightskyblue;
     justify-content: center;
     align-items: center;
     z-index: 1;
     transition: 1s;
 }
-.Firsthalf>#front:hover{
-    }
+
+.Firsthalf>#front:hover {}
+
 .Secondhalf {
-    width: 45%;
-    padding-top: 100px;
-    justify-content: center;
-    align-items: center;
+    width: 50%;
+    padding-left: 200px;
+    padding-top: 10px;
+    justify-content:center ;
+    align-items: right;
 }
 
 .Secondhalf>#front>img {
@@ -319,14 +354,15 @@
     z-index: 2;
     transition: 1s;
 }
-.Secondhalf>#back{
+
+.Secondhalf>#back {
     height: 0vh;
-    width:0vw;
-    position:absolute;
-    color:white;
+    width: 0vw;
+    position: absolute;
+    color: white;
     font-size: 0vh;
     border-radius: 10px;
-    border:3px solid white;
+    border: 3px solid white;
     background-color: lightskyblue;
     justify-content: center;
     align-items: center;
@@ -338,7 +374,7 @@
     background: rgba(0, 0, 0, 0.7) url('Assets/camera4.jpg');
     background-size: cover;
     background-blend-mode: darken;
-    height: 100vh;
+
 }
 
 .box-main5 {
@@ -361,7 +397,7 @@
 
 .secLeft {
     width: 50%;
-    padding-top: 50px;
+    padding-top: 10px;
     padding-left: 100px;
     font-size: xx-large;
     font-family: serif;
@@ -373,17 +409,166 @@
     display: flex;
     justify-content: right;
     align-items: center;
-    animation:move linear 1s infinite ;
+    animation: move linear 1s infinite;
 }
 
 .secRight>img {
     height: 50vh;
 }
-@keyframes move{
-    0%{transform:rotate(5deg);
-    transform-origin:right}
-    50%{transform:rotate(-5deg);
-        transform-origin:right}
-    100%{transform:rotate(5deg);
-        transform-origin:right}
+
+@keyframes move {
+    0% {
+        transform: rotate(5deg);
+        transform-origin: right
+    }
+
+    50% {
+        transform: rotate(-5deg);
+        transform-origin: right
+    }
+
+    100% {
+        transform: rotate(5deg);
+        transform-origin: right
+    }
+}
+
+.contact {
+    background: rgba(0, 0, 0, 0.7) url('Assets/camera4.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 130vh;
+}
+
+.text-advance {
+    text-align: center;
+    color: yellow;
+    font-size: 70px;
+    padding-top: 100px;
+}
+
+.form {
+    max-width: 62%;
+    margin: 25px auto;
+}
+.form-input {
+    margin: 16px 0;
+    padding: 5px 13px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: transparent;
+}
+
+.text-footer {
+    text-align: center;
+    padding: 30px 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+@media only screen and (max-width: 1140px) {
+    .nav-list {
+        flex-direction: column;
+    }
+
+    .navbar {
+        height: 600px;
+        flex-direction: column;
+        transition: all 0.7 ease-out;
+    }
+
+    .rightNav {
+        text-align: center;
+    }
+
+    .box-main {
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    #search {
+        width: 100%;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .h-nav-resp {
+        height: 68px;
+    }
+
+    .v-class-resp {
+        opacity: 0;
+    }
+    .firstsection{
+        flex-direction: column-reverse;
+    }
+    .firsthalf{
+        text-align: center;
+    }
+    .firstpage{
+        flex-direction: column;
+        text-align: center;
+    }
+    .box-main2{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .sectionSubTag{
+        text-align: center;
+    }
+    .secondHalf{
+        align-items: center;
+    }
+    .secondpage{
+        flex-direction: column;
+        text-align: center;
+    }
+    .box-main3{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .Sectiontag{
+        text-align: center;
+    
+    }
+    .box-main4{
+        flex-direction: column;
+        align-items: center;
+    }
+    .SectionTag{
+        text-align: center;
+    }
+    .forthpage{
+        flex-direction: column;
+        text-align: center;
+    }
+    .box-main5{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .SecTag{
+        text-align: center;
+    }
 }

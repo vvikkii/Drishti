@@ -500,8 +500,8 @@
 
 @media only screen and (max-width: 1140px) {
     .logo{
-        width: 20vw;
-        height: 20vh;
+        width: 30vw;
+        height: 30vh;
         align-items: center;
     }
     .nav-list {
@@ -509,7 +509,7 @@
     }
 
     .navbar {
-        height: 600px;
+        height: 750px;
         flex-direction: column;
         transition: all 0.7 ease-out;
     }

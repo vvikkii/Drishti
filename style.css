@@ -13,8 +13,8 @@
 }
 
 .logo img {
-    height: 33%;
-    width: 30%;
+    height: 20vh;
+    width: 10vw;
     border: 5px;
     border-radius: 40%;
 }
@@ -500,16 +500,20 @@
 
 @media only screen and (max-width: 1140px) {
     .logo{
-        width: 30vw;
+        width: 30%;
         height: 30vh;
         align-items: center;
+    }
+    .logo>img{
+        height: 10vh;
+        width: 5vw;
     }
     .nav-list {
         flex-direction: column;
     }
 
     .navbar {
-        height: 750px;
+        height: 800px;
         flex-direction: column;
         transition: all 0.7 ease-out;
     }

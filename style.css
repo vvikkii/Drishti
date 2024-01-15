@@ -606,12 +606,12 @@
      text-align: center;
     }
     .Firsthalf{
-        width: 50%;
-        height: 50%;
+        width: 25vw;
+        height: 25vh;
     }
     .Secondhalf{
-        width: 50%;
-        height: 50%;
+        width: 25vw;
+        height: 25vh;
         padding: 10px 0px;
     }
     .Firstquarter>img,.Secondquarter>img {

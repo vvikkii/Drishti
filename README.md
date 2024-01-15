@@ -10,8 +10,7 @@ DRISHTI is an enchanting event that provide you a stage to explore yourself. Thi
 
 ## About
 
-DRISHTI is not just an event; it's a platform that showcases the diverse effect on your daily life style. Attendees can expect a dynamic lineup of live short movie & interactive sharings. Whether you are an art enthusiast, a culture connoisseur, or simply someone looking for a unique experience, DRISHTI has something for everyone.
-
+DRISHTI is not just an event; it's a platform that showcases the diverse effect on your daily life style. Attendees can expect a dynamic  live short movie & interactive sharings of other attendees. 
 ## Contact
 
 For inquiries and more information about DRISHTI, please contact:

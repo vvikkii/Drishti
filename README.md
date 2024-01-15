@@ -1,5 +1,5 @@
 # Drishti
-DRISHTI is an enchanting event that provide you a stage top explore yourself. This unique gathering promises an immersive experience, bringing together individuals who share their own thought and perspective. From captivating short movie to thought-provoking sharings of attendees, DRISHTI aims to inspire, connect, and leave a 
+DRISHTI is an enchanting event that provide you a stage to explore yourself. This unique gathering promises an immersive experience, bringing together individuals who share their own thought and perspective. From captivating short movie to thought-provoking sharings of attendees, DRISHTI aims to inspire, connect, and leave a 
  long lasting impact on all attendees.
 
 ## Details

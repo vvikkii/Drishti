@@ -194,7 +194,7 @@
 
 .sectionTag {
     font-size: 70px;
-    padding: 80px 0;
+    padding: 80px 10px;
     color: yellow;
 }
 
@@ -561,6 +561,7 @@
     }
     .sectionSubTag{
         text-align: left;
+        padding-bottom:20px ;
     }
     .secondHalf{
         align-items: center;
@@ -581,8 +582,15 @@
         align-items: center;
     }
     .Sectiontag{
-        text-align: center;
-    
+        text-align: center;    
+    }
+    .Firstquarter>img{
+        width: 40vw;
+        height: 40vh;
+    }
+    .Secondquarter>img{
+        width: 40vw;
+        height: 40vh;
     }
     .thirdpage{
         width: 100%;

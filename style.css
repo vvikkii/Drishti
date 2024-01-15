@@ -5,16 +5,17 @@
 }
 
 .logo {
-    width: 30%;
     display: flex;
-    padding-left: -10px;
     justify-content: left;
     align-items: left;
+    position: absolute;
+    left: 3vw;
+    top: 0.5vh;
 }
 
 .logo img {
-    height: 20vh;
-    width: 10vw;
+    height: 7vh;
+    
     border: 5px;
     border-radius: 40%;
 }
@@ -40,7 +41,7 @@
 
 .nav-list li {
     list-style: none;
-    padding: 20px 8px;
+    padding: 5px;
 }
 
 .nav-list li a {
@@ -497,25 +498,25 @@
     height: 10vh;
     margin-right: 10px;
 }
+.logo {
+}
 
+.logo img {
+    height: 7vh;
+}
 @media only screen and (max-width: 1140px) {
-    .logo{
-        width: 30%;
-        height: 30vh;
-        align-items: center;
-    }
     .logo>img{
-        height: 10vh;
-        width: 5vw;
+        height: 7vh;
     }
     .nav-list {
         flex-direction: column;
+        
     }
 
     .navbar {
-        height: 800px;
+        height: 50vh;
         flex-direction: column;
-        transition: all 0.7 ease-out;
+        transition: all ease 0.5s;
     }
 
     .rightNav {

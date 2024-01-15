@@ -292,12 +292,10 @@
 }
 
 .SectionTag {
-    width: 10%;
     font-size: 70px;
-    padding: 80px 10px;
+    padding-top: 80px;
+    padding-left: 10px;
     color: yellow;
-    justify-content: center;
-    align-items: center;
 }
 
 .Firsthalf {
@@ -607,6 +605,15 @@
         width: 100%;
      text-align: center;
     }
+    .Firsthalf{
+        width: 50%;
+        height: 50%;
+    }
+    .Secondhalf{
+        width: 50%;
+        height: 50%;
+        padding: 10px 0px;
+    }
     .Firstquarter>img,.Secondquarter>img {
         height: 20vh;
     }
@@ -616,7 +623,9 @@
         align-items: center;
     }
     .SectionTag{
-        text-align:left;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }      
     
     .forthpage{
@@ -630,9 +639,9 @@
         align-items: center;
     }
     .SecTag{
-        text-align: left;
-        justify-content: left;
-        align-items: left;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
      .secLeft{
         text-align: left;
